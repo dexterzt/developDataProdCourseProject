@@ -29,6 +29,7 @@ shinyUI(fluidPage(
       #submitButton("Submit")
     ),
     mainPanel(width=6,
+      h3("Documentation:"),
       div("Simply input your information on the left panel in the indicated units to 
          get your maintenace daily caloric intake below. There is no need to wait or submit,
          result is calculated and updated immdediately."),
